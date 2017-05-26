@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">-->
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+
+    <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <title>Registration form</title>
+</head>
+
+<body id="bodyy">
+    <header class="z-depth-1">
+        GUSC</header>
+
+    <div id="formy" class="z-depth-5">
+       <div id="space">
+        <div id="signup">
+
+            <span><h4>Register</h4></span>
+            <form action="register.php" method="post">
+
+        <div class="row">    <label>First Name:</label> <input  style="font-size:15px; padding: 12px 20px;  margin: 8px 8px; " placeholder="First Name" name="first_name" type="text" class="validate"></div>
+          <div class="row">     <label>Last Name:</label><input  style="font-size:15px; padding: 12px 20px;  margin: 8px 8px; " placeholder="Last Name" name="last_name" type="text" class="validate"></div>
+          <div class="row">     <label>Mail Id:</label>  <input  style="font-size:15px; padding: 12px 20px;  margin: 8px 8px; " type="email" name="email" placeholder="E-mail" /></div>
+        <div class="row">     <label>Password:</label>  <input  style="font-size:15px; padding: 12px 20px;  margin: 8px 8px; "  type="password" name="password" placeholder="Password" /></div>
+        <div class="row">         <label>Areas of Interest:</label><input  style="font-size:15px; padding: 12px 20px;  margin: 8px 8px; " type="text" name="interest" placeholder="Areas of interest" /></div>
+      <div class="row">          <label>Questions you would like to ask:</label>  <input  style="font-size:15px; padding: 12px 20px;  margin: 8px 8px; " type="text" name="questions" placeholder="Questions you would like to ask" /></div>
+        <div class="row">     <label>Any Idea(s) you would like to work on ?:</label><input  style="font-size:15px; padding: 12px 20px;  margin: 8px 8px; " type="text" name="idea" placeholder="Any Idea(s) you would like to work on ?" /></div>
+
+             <input type="submit" name="signup_submit" value="SIGN ME UP" />
+           </form>
+        </div>
+        </div>
+
+
+    </div>
+</body>
+
+
+</html>
